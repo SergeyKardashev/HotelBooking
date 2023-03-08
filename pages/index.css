@@ -10,6 +10,7 @@
 @import url(../blocks/root/root.css);
 
 /* page */
+
 @import url(../blocks/page/page.css);
 
 /* header */
@@ -31,10 +32,27 @@
 @import url(../blocks/button/_place/button_place_header.css);
 @import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/button/_place/button_place_intro.css);
-@import url(../blocks/button/_place/button_place_main.css);
+@import url(../blocks/button/_place/button_place_featured.css);
 
 /* main */
 @import url();
 
+/* intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text-column/intro__text-column.css);
+@import url(../blocks/intro/__heading/intro__heading.css);
+@import url(../blocks/intro/__subheading/intro__subheading.css);
+@import url(../blocks/intro/__img-group/intro__img-group.css);
+@import url(../blocks/intro/__img/intro__img.css);
+@import url(../blocks/intro/__img/_place/intro__img_place_center.css);
+
+/* featured-home */
+
+@import url(../blocks/featured/featured.css);
+@import url(../blocks/featured/__img/featured__img.css);
+@import url(../blocks/featured/__text-block/featured__text-block.css);
+@import url(../blocks/featured/__headiing/featured__heading.css);
+@import url(../blocks/featured/__subheading/featured__subheading.css);
+
 /* footer */
-@import url();

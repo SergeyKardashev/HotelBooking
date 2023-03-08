@@ -1,12 +1,11 @@
 header {
   margin: 0 auto;
+  width: 100%;
   padding-top: 41px;
   padding-left: 120px;
   padding-right: 120px;
   padding-bottom: 32px;
-  background-color: rgb(255, 255, 255);
-  /* background-color: rgb(202, 182, 189); */
-  width: 100%;
+  box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;

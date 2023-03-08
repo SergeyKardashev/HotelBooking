@@ -1,4 +1,9 @@
 .button {
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 16px;
+  box-sizing: border-box;
   border-radius: 4px;
   background-color: #0e1734;
   font-family: Inter;
@@ -6,4 +11,7 @@
   font-weight: 500;
   line-height: 1.19;
   color: white;
+  flex-basis: 40px;
+  margin-left: 0;
+  margin-right: auto;
 }
