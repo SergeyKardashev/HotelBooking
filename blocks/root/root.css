@@ -1,5 +1,6 @@
 .root {
-  background-color: white;
+  background-color: rgb(215, 215, 215);
   padding: 0;
   margin: 0;
+  /* width: 100%; */
 }

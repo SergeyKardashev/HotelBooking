@@ -10,12 +10,15 @@
 @import url(../blocks/root/root.css);
 
 /* page */
+
 @import url(../blocks/page/page.css);
 
 /* header */
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__nav-list/header__nav-list.css);
 @import url(../blocks/header/__nav-item/header__nav-item.css);
+@import url(../blocks/header/__nav-link/header__nav-link.css);
 
 /* logo */
 
@@ -24,13 +27,17 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
 /* button */
+
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_header.css);
+@import url(../blocks/button/_place/button_place_reservation.css);
 @import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/button/_place/button_place_intro.css);
-@import url(../blocks/button/_place/button_place_main.css);
+@import url(../blocks/button/_place/button_place_featured.css);
 
 /* main */
+
+/* reservation */
 @import url(../blocks/reservation/reservation.css);
 @import url(../blocks/reservation/__title/reservation__title.css);
 @import url(../blocks/reservation/__subtitle/reservation__subtitle.css);
@@ -40,6 +47,9 @@
 @import url(../blocks/reservation/__heading/reservation__heading.css);
 @import url(../blocks/reservation/__paragraph/reservation__paragraph.css);
 @import url(../blocks/reservation/__link/reservation__link.css);
+@import url(../blocks/reservation/__link-button/reservation__link-button.css);
+
+/* reviews */
 
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__title/reviews__title.css);
@@ -49,6 +59,36 @@
 @import url(../blocks/reviews/__ellipses/reviews__ellipses.css);
 @import url(../blocks/reviews/__ellipse/reviews__ellipse.css);
 @import url(../blocks/reviews/__ellipse/_bolt/reviews__ellipse_bolt.css);
+
+/* intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__text-column/intro__text-column.css);
+@import url(../blocks/intro/__heading/intro__heading.css);
+@import url(../blocks/intro/__subheading/intro__subheading.css);
+@import url(../blocks/intro/__img-group/intro__img-group.css);
+@import url(../blocks/intro/__img/intro__img.css);
+@import url(../blocks/intro/__img/_place/intro__img_place_center.css);
+
+/* featured-home */
+
+@import url(../blocks/featured/featured.css);
+@import url(../blocks/featured/__img/featured__img.css);
+@import url(../blocks/featured/__text-block/featured__text-block.css);
+@import url(../blocks/featured/__headiing/featured__heading.css);
+@import url(../blocks/featured/__subheading/featured__subheading.css);
+
+/* benefit */
+
+@import url(../blocks/benefit/benefit.css);
+@import url(../blocks/benefit/__list/benefit__list.css);
+@import url(../blocks/benefit/__item/benefit__item.css);
+@import url(../blocks/benefit/__grid-text/benefit__grid-text.css);
+@import url(../blocks/benefit/__heading/benefit__heading.css);
+@import url(../blocks/benefit/__subheading/benefit__subheading.css);
+@import url(../blocks/benefit/__img/benefit__img.css);
+
+/* interiors-gallery */
 
 /* footer */
 @import url(../blocks/footer/footer.css);

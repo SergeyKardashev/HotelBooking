@@ -1,0 +1,12 @@
+.reservation__link {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #424F7B;
+  transition: 0.3s;
+}
+
+.reservation__link:hover {
+  opacity: 0.5;
+}

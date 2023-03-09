@@ -1,0 +1,9 @@
+.reservation__item {
+  padding: 0;
+  margin-right: 24px;
+  margin-top: 0;
+}
+
+.reservation__item:last-child {
+  margin-right: 0;
+}

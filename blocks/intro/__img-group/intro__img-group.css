@@ -1,0 +1,7 @@
+.intro__img-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 588px;
+  width: 100%;
+}

@@ -1,0 +1,6 @@
+.featured__img {
+  width: 384px;
+  height: 575px;
+  object-fit: cover;
+  border-radius: 4px;
+}

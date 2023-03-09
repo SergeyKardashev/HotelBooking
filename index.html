@@ -13,6 +13,16 @@
   - favicon (add)
   - readme (clean up and add GHP link)
   - animations (CSS libraries in chat)
+
+  - comments in css files
+  - paddings reordering maybe
+  - links > target blank
+  - hover
+  - fallbacks
+  - round corners
+  - extra images with shadow in folder
+  - object: fit (imgs)
+
  -->
 
   <body class="root">
@@ -24,13 +34,15 @@
         <nav>
           <ul class="header__nav-list">
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">Дома</a>
+              <a class="header__nav-link" href="#" target="_blank">Дома</a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-item" href="#">Бронирование</a>
+              <a class="header__nav-link" href="#" target="_blank"
+                >Бронирование</a
+              >
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">Контакты</a>
+              <a class="header__nav-link" href="#" target="_blank">Контакты</a>
             </li>
           </ul>
         </nav>
@@ -43,19 +55,93 @@
         <!-- intro -->
 
         <section class="intro">
-          <!-- intro content here -->
+          <div class="intro__text-column">
+            <h1 class="intro__heading">Аренда загородного дома для отдыха</h1>
+            <p class="intro__subheading">
+              Самые выгодные предложения по&nbsp;аренде коттеджей
+              и&nbsp;загородных домов в&nbsp;Москве и&nbsp;области
+            </p>
+            <div class="button button_place_intro">Бронирование</div>
+          </div>
+          <div class="intro__img-group">
+            <img
+              class="intro__img intro__img_place_left"
+              src="./images/intro_img_left_no_shadow.jpg"
+              alt="левая часть фотки дома"
+            >
+            <img
+              class="intro__img intro__img_place_center"
+              src="./images/intro_img_center_no_shadow.jpg"
+              alt="центральная часть фотки дома"
+            >
+            <img
+              class="intro__img intro__img_place_right"
+              src="./images/intro_img_right_no_shadow.jpg"
+              alt="правая часть фотки дома"
+            >
+          </div>
         </section>
 
-        <!-- featured-home -->
+        <!-- featured -->
 
-        <section class="featured-home">
-          <!-- section content here -->
+        <section class="featured">
+          <img
+            class="featured__img"
+            src="./images/featured_home.jpg"
+            alt="фото двухэтажный дом"
+          >
+          <div class="featured__text-block">
+            <h2 class="featured__heading">
+              Уютный двухэтажный дом в&nbsp;норвежском стиле
+            </h2>
+            <p class="featured__subheading">
+              Просторные коттеджи с&nbsp;видом на&nbsp;лес полностью
+              укомплектованы: кондиционер, холодильник, посудомоечная машина,
+              газовая плита, духовка, микроволновая печь, чайник, набор посуды
+              и&nbsp;столовых приборов. В&nbsp;каждом коттедже: стиральная
+              машина, гладильная станция, сушилка для белья, фен.
+            </p>
+            <div class="button button_place_featured">Подробнее</div>
+          </div>
         </section>
 
-        <!-- benefits-list -->
+        <!-- benefit -->
 
-        <section class="benefits-list">
-          <!-- section content here -->
+        <section class="benefit">
+          <ul class="benefit__list">
+            <li class="benefit__item">
+              <div class="benefit__grid-text">
+                <h2 class="benefit__heading">Активности</h2>
+                <p class="benefit__subheading">
+                  К&nbsp;вашим услугам наши прекрасные повора, которые
+                  приготовят вкусную еду по&nbsp;составленную для вас
+                  персональному меню. Также вы&nbsp;сможете воспользоваться СПА,
+                  тренажерным залом и&nbsp;прочими услугами, доступными
+                  на&nbsp;нашей территории.
+                </p>
+              </div>
+              <img
+                class="benefit__img"
+                src="./images/activities.jpg"
+                alt="фото рук, поднимающих бокалы"
+              >
+            </li>
+
+            <li class="benefit__item">
+              <div class="benefit__grid-text">
+                <h2 class="benefit__heading">100% Натуральные продукты</h2>
+                <p class="benefit__subheading">
+                  При приготовлении наших блюд мы&nbsp;используем только свежие,
+                  полезные, натуральные продукты.
+                </p>
+              </div>
+              <img
+                class="benefit__img"
+                src="./images/food.jpg"
+                alt="фото красивой тарелки с разннобразной едой"
+              >
+            </li>
+          </ul>
         </section>
 
         <!-- interiors-gallery -->
@@ -73,7 +159,11 @@
             У нас есть дома для любых мероприятий. Для большой компании у нас
             есть двухэтажный дом на самом краю леса.
           </p>
-          <div class="button">Подробнее</div>
+          <div class="button button_place_reservation">
+            <a class="reservation__link-button" href="#"> Подробнее</a>
+            <!-- задать класс из ссылок -->
+          </div>
+
           <div class="reservation__container">
             <ul class="reservation__item">
               <img

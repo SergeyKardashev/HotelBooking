@@ -1,0 +1,17 @@
+.benefit__item {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  align-items: center;
+  gap: 126px;
+  grid-template-areas: "grid-text grid-image";
+  grid-template-columns: 1fr 384px;
+}
+.benefit__item:nth-of-type(2n) {
+  margin: 0;
+  padding: 0;
+  margin-top: 32px;
+  grid-template-areas: "grid-image grid-text";
+  grid-template-columns: 384px 1fr;
+}

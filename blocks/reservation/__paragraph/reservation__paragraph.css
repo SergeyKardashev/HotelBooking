@@ -1,0 +1,11 @@
+.reservation__paragraph {
+  max-width: 384px;
+  min-height: 81px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #848FAC;
+  margin-top: 0;
+  margin-bottom: 32px;
+}

@@ -1,0 +1,12 @@
+.intro {
+  padding-top: 80px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-bottom: 160px;
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr 1fr;
+}
