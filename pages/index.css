@@ -55,4 +55,16 @@
 @import url(../blocks/featured/__headiing/featured__heading.css);
 @import url(../blocks/featured/__subheading/featured__subheading.css);
 
+/* benefit */
+
+@import url(../blocks/benefit/benefit.css);
+@import url(../blocks/benefit/__list/benefit__list.css);
+@import url(../blocks/benefit/__item/benefit__item.css);
+@import url(../blocks/benefit/__grid-text/benefit__grid-text.css);
+@import url(../blocks/benefit/__heading/benefit__heading.css);
+@import url(../blocks/benefit/__subheading/benefit__subheading.css);
+@import url(../blocks/benefit/__img/benefit__img.css);
+
+/* interiors-gallery */
+
 /* footer */

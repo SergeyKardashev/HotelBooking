@@ -1,0 +1,5 @@
+.benefit__grid-text {
+  margin: 0 auto;
+  padding: 0;
+  grid-area: grid-text;
+}
