@@ -1,0 +1,16 @@
+.footer__link-item {
+  display: flex;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #D9DBDE;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 24px;
+  transition: 0.5s;
+}
+
+.footer__link-item:hover {
+  opacity: 0.5;
+}
