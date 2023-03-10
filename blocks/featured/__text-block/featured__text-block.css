@@ -12,3 +12,9 @@
     padding-left: 59px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .featured__text-block {
+    padding-left: 59px;
+  }
+}
