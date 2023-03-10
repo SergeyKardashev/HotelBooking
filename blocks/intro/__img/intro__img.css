@@ -12,3 +12,9 @@
     height: 509px;
   }
 }
+
+@media screen and (min-width: 124px) and (max-width: 1279px) {
+  .intro__img {
+    width: 141px;
+  }
+}

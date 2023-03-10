@@ -9,3 +9,9 @@
     font-size: 36px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .heading_place_intro {
+    font-size: 36px;
+  }
+}
