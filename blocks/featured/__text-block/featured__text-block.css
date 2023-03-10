@@ -6,3 +6,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .featured__text-block {
+    padding-left: 59px;
+  }
+}
