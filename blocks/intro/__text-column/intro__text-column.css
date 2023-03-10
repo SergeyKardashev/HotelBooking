@@ -12,3 +12,10 @@
     max-width: 485px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__text-column {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}

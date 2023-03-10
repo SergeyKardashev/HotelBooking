@@ -13,8 +13,19 @@
   }
 }
 
-@media screen and (min-width: 124px) and (max-width: 1279px) {
+@media screen and (min-width: 1204px) and (max-width: 1279px) {
   .intro__img {
     width: 141px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__img {
+    width: 180px;
+    margin-left: 25px;
+  }
+
+  .intro__img:first-of-type {
+    margin-left: 0;
   }
 }
