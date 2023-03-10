@@ -6,3 +6,9 @@
   padding-left: 120px;
   padding-bottom: 80px;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .benefit {
+    padding-right: 120px;
+  }
+}
