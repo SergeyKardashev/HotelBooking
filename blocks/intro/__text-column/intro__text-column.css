@@ -6,3 +6,9 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .intro__text-column {
+    max-width: 485px;
+  }
+}

@@ -8,3 +8,9 @@
   letter-spacing: -0.01em;
   color: #192252;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .heading {
+    font-size: 32px;
+  }
+}

@@ -2,6 +2,13 @@
   border-radius: 4px;
   width: 180px;
   height: 588px;
-
+  object-fit: cover;
   box-shadow: 0px 20px 40px 0px #0000001a;
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .intro__img {
+    width: 156px;
+    height: 509px;
+  }
 }

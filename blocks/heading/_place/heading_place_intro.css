@@ -3,3 +3,9 @@
   font-size: 48px;
   font-weight: 600;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .heading_place_intro {
+    font-size: 36px;
+  }
+}
