@@ -40,10 +40,12 @@
 @import url(../blocks/heading/heading.css);
 @import url(../blocks/heading/_place/heading_place_intro.css);
 @import url(../blocks/heading/_place/heading_place_interiors.css);
+@import url(../blocks/heading/_place/heading_place_benefit.css);
 
 /* subheading */
 
 @import url(../blocks/subheading/subheading.css);
+@import url(../blocks/subheading/_place/subheading_place_benefit.css);
 
 /* main */
 
