@@ -47,29 +47,6 @@
 
 /* main */
 
-/* reservation */
-@import url(../blocks/reservation/reservation.css);
-@import url(../blocks/reservation/__title/reservation__title.css);
-@import url(../blocks/reservation/__subtitle/reservation__subtitle.css);
-@import url(../blocks/reservation/__container/reservation__container.css);
-@import url(../blocks/reservation/__item/reservation__item.css);
-@import url(../blocks/reservation/__image/reservation__image.css);
-@import url(../blocks/reservation/__heading/reservation__heading.css);
-@import url(../blocks/reservation/__paragraph/reservation__paragraph.css);
-@import url(../blocks/reservation/__link/reservation__link.css);
-@import url(../blocks/reservation/__link-button/reservation__link-button.css);
-
-/* reviews */
-
-@import url(../blocks/reviews/reviews.css);
-@import url(../blocks/reviews/__title/reviews__title.css);
-@import url(../blocks/reviews/__avatar/reviews__avatar.css);
-@import url(../blocks/reviews/__paragraph/reviews_paragraph.css);
-@import url(../blocks/reviews/__caption/reviews__caption.css);
-@import url(../blocks/reviews/__ellipses/reviews__ellipses.css);
-@import url(../blocks/reviews/__ellipse/reviews__ellipse.css);
-@import url(../blocks/reviews/__ellipse/_bolt/reviews__ellipse_bolt.css);
-
 /* intro */
 
 @import url(../blocks/intro/intro.css);
@@ -109,7 +86,32 @@
 @import url(../blocks/carousel/__dot/carousel__dot.css);
 @import url(../blocks/carousel/__dot/_status/carousel__dot_status_on.css);
 
+/* reservation */
+
+@import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__title/reservation__title.css);
+@import url(../blocks/reservation/__subtitle/reservation__subtitle.css);
+@import url(../blocks/reservation/__container/reservation__container.css);
+@import url(../blocks/reservation/__item/reservation__item.css);
+@import url(../blocks/reservation/__image/reservation__image.css);
+@import url(../blocks/reservation/__heading/reservation__heading.css);
+@import url(../blocks/reservation/__paragraph/reservation__paragraph.css);
+@import url(../blocks/reservation/__link/reservation__link.css);
+@import url(../blocks/reservation/__link-button/reservation__link-button.css);
+
+/* reviews */
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__avatar/reviews__avatar.css);
+@import url(../blocks/reviews/__paragraph/reviews_paragraph.css);
+@import url(../blocks/reviews/__caption/reviews__caption.css);
+@import url(../blocks/reviews/__ellipses/reviews__ellipses.css);
+@import url(../blocks/reviews/__ellipse/reviews__ellipse.css);
+@import url(../blocks/reviews/__ellipse/_bolt/reviews__ellipse_bolt.css);
+
 /* footer */
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__item-title//footet__item-title.css);
