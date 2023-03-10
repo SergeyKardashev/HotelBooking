@@ -1,0 +1,7 @@
+.reviews__ellipse {
+  background-color: rgba(250, 176, 71, 0.35);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 12px;
+}

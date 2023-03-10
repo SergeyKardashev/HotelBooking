@@ -30,6 +30,7 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_header.css);
+@import url(../blocks/button/_place/button_place_reservation.css);
 @import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/button/_place/button_place_intro.css);
 @import url(../blocks/button/_place/button_place_featured.css);
@@ -45,6 +46,30 @@
 @import url(../blocks/subheading/subheading.css);
 
 /* main */
+
+/* reservation */
+@import url(../blocks/reservation/reservation.css);
+@import url(../blocks/reservation/__title/reservation__title.css);
+@import url(../blocks/reservation/__subtitle/reservation__subtitle.css);
+@import url(../blocks/reservation/__container/reservation__container.css);
+@import url(../blocks/reservation/__item/reservation__item.css);
+@import url(../blocks/reservation/__image/reservation__image.css);
+@import url(../blocks/reservation/__heading/reservation__heading.css);
+@import url(../blocks/reservation/__paragraph/reservation__paragraph.css);
+@import url(../blocks/reservation/__link/reservation__link.css);
+@import url(../blocks/reservation/__link-button/reservation__link-button.css);
+
+/* reviews */
+
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__title/reviews__title.css);
+@import url(../blocks/reviews/__avatar/reviews__avatar.css);
+@import url(../blocks/reviews/__paragraph/reviews_paragraph.css);
+@import url(../blocks/reviews/__caption/reviews__caption.css);
+@import url(../blocks/reviews/__ellipses/reviews__ellipses.css);
+@import url(../blocks/reviews/__ellipse/reviews__ellipse.css);
+@import url(../blocks/reviews/__ellipse/_bolt/reviews__ellipse_bolt.css);
+
 
 /* intro */
 
@@ -86,3 +111,14 @@
 @import url(../blocks/carousel/__dot/_status/carousel__dot_status_on.css);
 
 /* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__item-title//footet__item-title.css);
+@import url(../blocks/footer/__container-icon/footer__container-icon.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__container-links/footer__container-links.css);
+@import url(../blocks/footer/__container-title/footer__container-title.css);
+@import url(../blocks/footer/__link-title/footer__link-title.css);
+@import url(../blocks/footer/__link-item/footer__link-item.css);
+@import url(../blocks/footer/__links/footer__links.css);

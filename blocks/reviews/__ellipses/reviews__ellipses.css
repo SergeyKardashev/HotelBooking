@@ -1,0 +1,6 @@
+.reviews__ellipses {
+  display: flex;
+  align-items: center;
+  margin: 0 684px 82px;
+  padding-left: 10px;
+}

@@ -1,0 +1,9 @@
+.reservation__link-button {
+  text-decoration: none;
+  color: #ffff;
+  transition: 0.3s;
+}
+
+.reservation__link-button:hover {
+  opacity: 0.5;
+}

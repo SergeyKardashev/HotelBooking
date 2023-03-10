@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>HotelBooking</title>
-    <link rel="stylesheet" href="/pages/index.css" />
+    <link rel="stylesheet" href="/pages/index.css" >
   </head>
 
   <!--
@@ -73,17 +73,17 @@
               class="intro__img intro__img_place_left"
               src="./images/intro_img_left_no_shadow.jpg"
               alt="левая часть фотки дома"
-            />
+            >
             <img
               class="intro__img intro__img_place_center"
               src="./images/intro_img_center_no_shadow.jpg"
               alt="центральная часть фотки дома"
-            />
+            >
             <img
               class="intro__img intro__img_place_right"
               src="./images/intro_img_right_no_shadow.jpg"
               alt="правая часть фотки дома"
-            />
+            >
           </div>
         </section>
 
@@ -94,7 +94,7 @@
             class="featured__img"
             src="./images/featured_home.jpg"
             alt="фото двухэтажный дом"
-          />
+          >
           <div class="featured__text-block">
             <h2 class="heading heading_place_featured">
               <!-- пустой класс заголовка heading_place_featured -->
@@ -130,7 +130,7 @@
                 class="benefit__img"
                 src="./images/activities.jpg"
                 alt="фото рук, поднимающих бокалы"
-              />
+              >
             </li>
 
             <li class="benefit__item">
@@ -145,7 +145,7 @@
                 class="benefit__img"
                 src="./images/food.jpg"
                 alt="фото красивой тарелки с разннобразной едой"
-              />
+              >
             </li>
           </ul>
         </section>
@@ -191,12 +191,82 @@
 
         <section class="reservation">
           <!-- section content here -->
+          <h2 class="reservation__title">Выберите ваш дом</h2>
+          <p class="reservation__subtitle">
+            У нас есть дома для любых мероприятий. Для большой компании у нас
+            есть двухэтажный дом на самом краю леса.
+          </p>
+          <div class="button button_place_reservation">
+            <a class="reservation__link-button" href="#"> Подробнее</a>
+            <!-- задать класс из ссылок -->
+          </div>
+
+          <div class="reservation__container">
+            <ul class="reservation__item">
+              <img
+                class="reservation__image"
+                src="./images/home_s.jpg"
+                alt="Уютный домик"
+              >
+              <h3 class="reservation__heading">Маленький домик</h3>
+              <p class="reservation__paragraph">
+                Уютный коттедж с 3 спальнями и бильярдом.
+              </p>
+              <a class="reservation__link" href="#">Подробнее → </a>
+            </ul>
+
+            <ul class="reservation__item">
+              <img
+                class="reservation__image"
+                src="./images/home_l.jpg"
+                alt="Чтение книг"
+              >
+              <h3 class="reservation__heading">Большой дом</h3>
+              <p class="reservation__paragraph">
+                266 кв.м. с тремя спальнями, четырьмя санузлами, камином и
+                бильярдом.
+              </p>
+              <a class="reservation__link" href="#">Подробнее → </a>
+            </ul>
+
+            <ul class="reservation__item">
+              <img
+                class="reservation__image"
+                src="./images/home_two_story.jpg"
+                alt="Дом у озера"
+              >
+              <h3 class="reservation__heading">Двухэтажный дом</h3>
+              <p class="reservation__paragraph">
+                Коттедж с сауной, четырьмя спальнями и бильярдом. Идеально
+                подойдет для полноценного празднования нового года.
+              </p>
+              <a class="reservation__link" href="#">Подробнее → </a>
+            </ul>
+          </div>
         </section>
 
         <!-- reviews -->
 
         <section class="reviews">
           <!-- section content here -->
+          <h2 class="reviews__title">Отзывы</h2>
+          <img
+            class="reviews__avatar"
+            src="./images/avatar.png"
+            alt="Фото Ирины"
+          >
+          <p class="reviews_paragraph">
+            Мы очень долго искали коттедж, чтобы отметить день рождение. Все
+            очень понравилось. Комфортно, уютно,не дом, а сказка. Все очень
+            понравилось, хочется приехать еще сюда не один раз
+          </p>
+          <p class="reviews__caption">Ирина Иванова</p>
+          <div class="reviews__ellipses">
+            <div class="reviews__ellipse"></div>
+            <div class="reviews__ellipse_bolt"></div>
+            <div class="reviews__ellipse"></div>
+            <div class="reviews__ellipse"></div>
+          </div>
         </section>
       </main>
 
@@ -204,6 +274,60 @@
 
       <footer class="footer">
         <!-- footer content here -->
+        <div class="footer__container">
+          <div class="footer__container-title">
+            <ul class="footer__item-title">
+              <li class="logo logo_place_footer">HotelBooking</li>
+              <li class="footer__subtitle">
+                Загородный отдых с замечательными видами
+              </li>
+            </ul>
+            <ul class="footer__container-icon">
+              <li>
+                <a class="footer__social-icon" href="#">
+                  <img src="./images/twiter_logo.svg" alt="Twitter"
+                ></a>
+              </li>
+              <li>
+                <a class="footer__social-icon" href="#">
+                  <img src="./images/vk_logo.svg" alt="Вконтакте"
+                ></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__container-links">
+            <h2 class="footer__link-title">Дома</h2>
+            <ul class="footer__links">
+              <li><a class="footer__link-item" href="#">Маленький домик</a></li>
+              <li><a class="footer__link-item" href="#">Большой дом</a></li>
+              <li><a class="footer__link-item" href="#">Двухэтажный дом</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__container-links">
+            <h2 class="footer__link-title">Бронирование</h2>
+            <ul class="footer__links">
+              <li><a class="footer__link-item" href="#">Оформление</a></li>
+              <li><a class="footer__link-item" href="#">Оплата</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__container-links">
+            <h2 class="footer__link-title">Контакты</h2>
+            <ul class="footer__links">
+              <li><a class="footer__link-item" href="#">8-800-555-35-35</a></li>
+              <li>
+                <a class="footer__link-item" href="#">email@yandex.ru </a>
+              </li>
+              <li>
+                <a class="footer__link-item" href="#"
+                  >Деревня Кимжа, Архангельская область</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
