@@ -1,0 +1,7 @@
+.carousel__dot {
+  background-color: white;
+  border-radius: 4px;
+  width: 8px;
+  height: 8px;
+  opacity: 85%;
+}

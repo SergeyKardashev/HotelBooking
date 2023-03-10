@@ -1,0 +1,6 @@
+.interiors__hero-wrapper {
+  grid-area: full-size;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}

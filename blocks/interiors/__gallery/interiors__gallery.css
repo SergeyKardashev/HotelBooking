@@ -1,0 +1,15 @@
+.interiors__gallery {
+  margin: 0;
+  padding: 0;
+  padding-top: 37px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1090px 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "full-size thumb-first"
+    "full-size thumb-second"
+    "full-size thumb-third";
+  gap: 3px;
+  position: relative;
+}

@@ -22,6 +22,9 @@
   - round corners
   - extra images with shadow in folder
   - object: fit (imgs)
+  - make reusable block heading
+  - not needed class .gallery__img_status_inactive
+
 
  -->
 
@@ -56,8 +59,10 @@
 
         <section class="intro">
           <div class="intro__text-column">
-            <h1 class="intro__heading">Аренда загородного дома для отдыха</h1>
-            <p class="intro__subheading">
+            <h1 class="heading heading_place_intro">
+              Аренда загородного дома для отдыха
+            </h1>
+            <p class="subheading">
               Самые выгодные предложения по&nbsp;аренде коттеджей
               и&nbsp;загородных домов в&nbsp;Москве и&nbsp;области
             </p>
@@ -91,10 +96,11 @@
             alt="фото двухэтажный дом"
           />
           <div class="featured__text-block">
-            <h2 class="featured__heading">
+            <h2 class="heading heading_place_featured">
+              <!-- пустой класс заголовка heading_place_featured -->
               Уютный двухэтажный дом в&nbsp;норвежском стиле
             </h2>
-            <p class="featured__subheading">
+            <p class="subheading">
               Просторные коттеджи с&nbsp;видом на&nbsp;лес полностью
               укомплектованы: кондиционер, холодильник, посудомоечная машина,
               газовая плита, духовка, микроволновая печь, чайник, набор посуды
@@ -111,8 +117,8 @@
           <ul class="benefit__list">
             <li class="benefit__item">
               <div class="benefit__grid-text">
-                <h2 class="benefit__heading">Активности</h2>
-                <p class="benefit__subheading">
+                <h2 class="heading">Активности</h2>
+                <p class="subheading">
                   К&nbsp;вашим услугам наши прекрасные повора, которые
                   приготовят вкусную еду по&nbsp;составленную для вас
                   персональному меню. Также вы&nbsp;сможете воспользоваться СПА,
@@ -129,8 +135,8 @@
 
             <li class="benefit__item">
               <div class="benefit__grid-text">
-                <h2 class="benefit__heading">100% Натуральные продукты</h2>
-                <p class="benefit__subheading">
+                <h2 class="heading">100% Натуральные продукты</h2>
+                <p class="subheading">
                   При приготовлении наших блюд мы&nbsp;используем только свежие,
                   полезные, натуральные продукты.
                 </p>
@@ -146,7 +152,38 @@
 
         <!-- interiors-gallery -->
 
-        <section class="interiors-gallery">
+        <section class="interiors">
+          <h2 class="heading heading_place_interiors">Наши интерьеры</h2>
+          <div class="interiors__gallery">
+            <div class="interiors__hero-wrapper interiors__img_place_full-size">
+              <div class="carousel">
+                <div class="carousel__dot"></div>
+                <div class="carousel__dot_status_on"></div>
+                <div class="carousel__dot"></div>
+                <div class="carousel__dot"></div>
+              </div>
+              <img
+                class="interiors__img"
+                src="./images/interior_1.jpg"
+                alt="просторный интерьер с прозрачной перегородкой"
+              />
+            </div>
+            <img
+              class="interiors__img interiors__img_place_first"
+              src="./images/interior_2.jpg"
+              alt="комната с диваном и зеленой частью стены"
+            />
+            <img
+              class="interiors__img interiors__img_place_second"
+              src="./images/interior_3.jpg"
+              alt="большая белая кухня"
+            />
+            <img
+              class="interiors__img interiors__img_place_third"
+              src="./images/interior_4.jpg"
+              alt="большая гостиная с растениями и зеленой стеной"
+            />
+          </div>
           <!-- section content here -->
         </section>
 

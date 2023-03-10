@@ -34,15 +34,22 @@
 @import url(../blocks/button/_place/button_place_intro.css);
 @import url(../blocks/button/_place/button_place_featured.css);
 
+/* heading */
+
+@import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/_place/heading_place_intro.css);
+@import url(../blocks/heading/_place/heading_place_interiors.css);
+
+/* subheading */
+
+@import url(../blocks/subheading/subheading.css);
+
 /* main */
-@import url();
 
 /* intro */
 
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__text-column/intro__text-column.css);
-@import url(../blocks/intro/__heading/intro__heading.css);
-@import url(../blocks/intro/__subheading/intro__subheading.css);
 @import url(../blocks/intro/__img-group/intro__img-group.css);
 @import url(../blocks/intro/__img/intro__img.css);
 @import url(../blocks/intro/__img/_place/intro__img_place_center.css);
@@ -52,8 +59,6 @@
 @import url(../blocks/featured/featured.css);
 @import url(../blocks/featured/__img/featured__img.css);
 @import url(../blocks/featured/__text-block/featured__text-block.css);
-@import url(../blocks/featured/__headiing/featured__heading.css);
-@import url(../blocks/featured/__subheading/featured__subheading.css);
 
 /* benefit */
 
@@ -61,10 +66,23 @@
 @import url(../blocks/benefit/__list/benefit__list.css);
 @import url(../blocks/benefit/__item/benefit__item.css);
 @import url(../blocks/benefit/__grid-text/benefit__grid-text.css);
-@import url(../blocks/benefit/__heading/benefit__heading.css);
-@import url(../blocks/benefit/__subheading/benefit__subheading.css);
 @import url(../blocks/benefit/__img/benefit__img.css);
 
-/* interiors-gallery */
+/* interiors */
+
+@import url(../blocks/interiors/interiors.css);
+@import url(../blocks/interiors/__gallery/interiors__gallery.css);
+@import url(../blocks/interiors/__img/interiors__img.css);
+@import url(../blocks/interiors/__hero-wrapper/interiors__hero-wrapper.css);
+@import url(../blocks/interiors/__img/_place/interiors__img_place_full-size.css);
+@import url(../blocks/interiors/__img/_place/interiors__img_place_first.css);
+@import url(../blocks/interiors/__img/_place/interiors__img_place_second.css);
+@import url(../blocks/interiors/__img/_place/interiors__img_place_third.css);
+
+/* carousel */
+
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/carousel/__dot/carousel__dot.css);
+@import url(../blocks/carousel/__dot/_status/carousel__dot_status_on.css);
 
 /* footer */
