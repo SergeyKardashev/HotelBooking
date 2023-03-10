@@ -10,8 +10,13 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
+  text-decoration: none;
   color: white;
   flex-basis: 40px;
   margin-left: 0;
   margin-right: auto;
+  transition: 0.5s;
+}
+.button:hover {
+  background-color: #008c27;
 }

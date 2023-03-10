@@ -1,3 +1,8 @@
 .interiors__img_place_first {
   grid-area: thumb-first;
+  position: relative;
+}
+
+.interiors__img_place_first:hover {
+  opacity: 0.5;
 }

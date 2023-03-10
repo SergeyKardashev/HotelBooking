@@ -1,3 +1,7 @@
 .interiors__img_place_second {
   grid-area: thumb-second;
 }
+
+.interiors__img_place_second:hover {
+  opacity: 0.5;
+}

@@ -1,3 +1,7 @@
 .interiors__img_place_third {
   grid-area: thumb-third;
 }
+
+.interiors__img_place_third:hover {
+  opacity: 0.5;
+}
