@@ -8,3 +8,9 @@
 .header__nav-item:first-child {
   margin-left: 0px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__nav-item {
+    margin-left: 15px;
+  }
+}
