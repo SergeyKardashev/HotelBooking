@@ -18,3 +18,11 @@
     padding-left: 59px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .featured__text-block {
+    padding-left: 24px;
+    padding-top: 0;
+    justify-content: center;
+  }
+}
