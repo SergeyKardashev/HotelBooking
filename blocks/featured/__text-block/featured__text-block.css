@@ -26,3 +26,11 @@
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .featured__text-block {
+    padding-left: 0px;
+    padding-top: 22px;
+    justify-content: center;
+  }
+}

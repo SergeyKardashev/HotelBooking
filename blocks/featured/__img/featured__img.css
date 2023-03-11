@@ -1,12 +1,18 @@
 .featured__img {
   width: 384px;
-  height: 575px;
   object-fit: cover;
   border-radius: 4px;
+  aspect-ratio: 288 / 431;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .featured__img {
     width: 352px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .featured__img {
+    width: 100%;
   }
 }

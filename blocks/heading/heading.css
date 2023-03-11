@@ -20,3 +20,9 @@
     font-size: 32px;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .heading {
+    font-size: 20px;
+  }
+}

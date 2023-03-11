@@ -42,6 +42,9 @@
 @import url(../blocks/heading/_place/heading_place_interiors.css);
 @import url(../blocks/heading/_place/heading_place_benefit.css);
 
+/* not used */
+/* @import url(../blocks/heading/_place/heading_place_featured.css);  */
+
 /* subheading */
 
 @import url(../blocks/subheading/subheading.css);
