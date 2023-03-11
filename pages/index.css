@@ -3,10 +3,6 @@
 
 /* root */
 
-/* TODO */
-
-/* проверить нужен ли этот класс */
-
 @import url(../blocks/root/root.css);
 
 /* page */
@@ -31,7 +27,6 @@
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_header.css);
 @import url(../blocks/button/_place/button_place_reservation.css);
-@import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/button/_place/button_place_intro.css);
 @import url(../blocks/button/_place/button_place_featured.css);
 
@@ -46,8 +41,6 @@
 
 @import url(../blocks/subheading/subheading.css);
 @import url(../blocks/subheading/_place/subheading_place_benefit.css);
-
-/* main */
 
 /* intro */
 
@@ -126,6 +119,6 @@
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__links/footer__links.css);
 
-/* animation  */
+/* vandor animation  */
 
 @import url(../vendor/slide-bottom.css);

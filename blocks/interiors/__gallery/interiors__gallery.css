@@ -5,7 +5,6 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 24%;
-  /* grid-template-columns: 1090px 1fr; */
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     "full-size thumb-first"
