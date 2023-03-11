@@ -36,6 +36,31 @@
 
   .benefit__item:nth-of-type(2n) {
     /* gap: 24px; */
+    /* useless */
+    /* useless */
+    /* useless */
+    /* useless */
     grid-template-columns: 257px 1fr;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .benefit__item {
+    gap: 30px;
+    /* margin-top: 50px; */
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "grid-image"
+      "grid-text ";
+  }
+
+  .benefit__item:nth-of-type(2n) {
+    gap: 30px;
+    margin-top: 50px;
+    /* margin-top: 32px; */
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "grid-image"
+      "grid-text ";
   }
 }

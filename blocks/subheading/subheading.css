@@ -12,5 +12,6 @@
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .subheading {
     font-size: 14px;
+    padding-top: 14px;
   }
 }

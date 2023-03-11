@@ -3,3 +3,10 @@
     line-height: 1.3;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .heading_place_benefit {
+    line-height: 1.3;
+    /* padding-top: 30px; */
+  }
+}

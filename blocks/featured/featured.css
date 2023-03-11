@@ -25,6 +25,7 @@
   .featured {
     padding-right: 16px;
     padding-left: 16px;
+    padding-bottom: 40px;
     flex-direction: column;
   }
 }
