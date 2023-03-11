@@ -11,7 +11,12 @@
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 767px) {
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .featured__img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 499px) {
   .featured__img {
     width: 100%;
   }

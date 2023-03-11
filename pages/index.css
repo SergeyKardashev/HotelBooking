@@ -128,3 +128,7 @@
 @import url(../blocks/footer/__link-title/footer__link-title.css);
 @import url(../blocks/footer/__link-item/footer__link-item.css);
 @import url(../blocks/footer/__links/footer__links.css);
+
+/* animation  */
+
+@import url(../vendor/slide-bottom.css);
