@@ -1,4 +1,5 @@
 .intro {
+  margin: 0 auto;
   padding-top: 80px;
   padding-right: 120px;
   padding-left: 120px;
@@ -25,5 +26,17 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr min-content;
     padding-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .intro {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr min-content;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 16px;
+    padding-left: 16px;
+    max-width: 288px;
   }
 }

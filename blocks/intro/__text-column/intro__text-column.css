@@ -19,3 +19,10 @@
     grid-row-end: 3;
   }
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .intro__text-column {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+}
