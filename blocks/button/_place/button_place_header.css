@@ -2,3 +2,10 @@
   padding: 14px 16px;
   margin: 0;
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .button_place_header {
+    margin-top: 20px;
+    padding: 10px 14px;
+  }
+}
