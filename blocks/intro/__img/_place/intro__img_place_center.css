@@ -2,3 +2,15 @@
   position: relative;
   top: 80px;
 }
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .intro__img_place_center {
+    top: 70px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__img_place_center {
+    top: 63px;
+  }
+}

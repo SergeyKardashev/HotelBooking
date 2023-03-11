@@ -8,8 +8,9 @@
   box-sizing: border-box;
   display: grid;
   gap: 24px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr min-content;
   justify-content: center;
+  justify-items: center;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {

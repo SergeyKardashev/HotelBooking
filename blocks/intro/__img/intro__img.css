@@ -1,21 +1,26 @@
 .intro__img {
   border-radius: 4px;
   width: 180px;
-  height: 588px;
+  aspect-ratio: 180 / 588;
   object-fit: cover;
   box-shadow: 0px 20px 40px 0px #0000001a;
+  margin-left: 24px;
+}
+
+.intro__img:first-of-type {
+  margin-left: 0;
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
   .intro__img {
     width: 156px;
-    height: 509px;
   }
 }
 
-@media screen and (min-width: 1204px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .intro__img {
     width: 141px;
+    margin-left: 19px;
   }
 }
 
@@ -23,9 +28,5 @@
   .intro__img {
     width: 180px;
     margin-left: 25px;
-  }
-
-  .intro__img:first-of-type {
-    margin-left: 0;
   }
 }
