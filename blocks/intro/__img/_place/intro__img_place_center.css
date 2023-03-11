@@ -1,22 +1,4 @@
 .intro__img_place_center {
   position: relative;
-  top: 80px;
-}
-
-@media screen and (min-width: 1280px) and (max-width: 1439px) {
-  .intro__img_place_center {
-    top: 70px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .intro__img_place_center {
-    top: 63px;
-  }
-}
-
-@media screen and (min-width: 0px) and (max-width: 767px) {
-  .intro__img_place_center {
-    top: 39px;
-  }
+  top: 13.7%;
 }

@@ -1,12 +1,13 @@
 .intro__img {
   border-radius: 4px;
-  width: 180px;
+  width: 30.61%;
   aspect-ratio: 180 / 588;
   object-fit: cover;
   box-shadow: 0px 20px 40px 0px #0000001a;
-  margin-left: 24px;
+  /* padding-bottom: 20%; */
+  /* margin-left: 24px; */
 }
-
+/*
 .intro__img:first-of-type {
   margin-left: 0;
 }
@@ -30,10 +31,9 @@
     margin-left: 25px;
   }
 }
-
+*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
   .intro__img {
-    width: 88px;
-    margin-left: 12px;
+    margin-bottom: 10%;
   }
 }
