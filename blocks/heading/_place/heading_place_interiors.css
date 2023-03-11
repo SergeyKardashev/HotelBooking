@@ -1,3 +1,10 @@
 .heading_place_interiors {
   text-align: center;
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .heading_place_interiors {
+    text-align: left;
+    padding-left: 16px;
+  }
+}

@@ -14,3 +14,14 @@
   gap: 3px;
   position: relative;
 }
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .interiors__gallery {
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      "full-size full-size full-size"
+      "thumb-first thumb-second thumb-third";
+  }
+}
