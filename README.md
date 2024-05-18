@@ -6,8 +6,7 @@ This is a project for a pair programming competition focused on web page develop
 
 Это проект для соревнования по парному программированию, нацеленному на верстку страниц. Соревнование проходило в рамках курса по веб разработке Яндекс.Практикума.
 
-- [Demo / Демо](https://sergeykardashev.github.io/HotelBooking/)
-- [Figma Design / Макет в Фигме](https://www.figma.com/file/fUtEsAUkM11D4VyV5xnivB/HotelBooking?node-id=0%3A1&t=oP3kQyg0wMdki4g7-0)
+[Demo / Демо](https://sergeykardashev.github.io/HotelBooking/) на gh-pages | [Figma Design / Макет в Фигме](https://www.figma.com/file/fUtEsAUkM11D4VyV5xnivB/HotelBooking?node-id=0%3A1&t=oP3kQyg0wMdki4g7-0)
 
 ![screenshot1](https://github.com/SergeyKardashev/HotelBooking/raw/assets/images/HotelBooking_thumb.jpg)
 
