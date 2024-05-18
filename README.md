@@ -18,7 +18,7 @@ We only use HTML and CSS. For animation we used animate.css library.
 Мы использовали только HTML и CSS. Для создания анимаций использовали библиотеку animate.css.
 
 ## Road Map / Планы по доработке
-- Add missinb blocks to the page / Дополнение страницы недостающими блоками;
+- Add missing blocks to the page / Дополнение страницы недостающими блоками;
 - Add adaptive feature / Добавление адаптивной верстки;
 - Add hover animation and scroll animation / Добавление анимации по скроллу и ховеру.
 
